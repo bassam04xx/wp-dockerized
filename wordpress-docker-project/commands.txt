@@ -1,0 +1,22 @@
+docker network ls
+docker volume ls
+
+
+
+docker-compose up -d
+docker-compose down
+docker exec -it wordpress_db mysql -u root -p ("example")
+
+USE wordpress;
+SHOW TABLES;
+
+
+SELECT ID, post_content FROM wp-posts;
+
+
+
+
+wordpress credentials
+
+admin
+docker-isg2024
